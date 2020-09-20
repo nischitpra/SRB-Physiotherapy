@@ -10,23 +10,3 @@
   padding-top: 100px;
   padding-bottom: 128px;
 }
-
-.home-patient-image {
-  flex:1;
-}
-
-.home-book-appointment-form {
-  flex: 1;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.home-book-appointment-form-caption {
-  font-size: 3em;
-  font-weight: 700;
-  margin: 0;
-  margin-bottom: 8px;
-  color: white;
-}

@@ -61,7 +61,7 @@ class SlidingPanel extends React.Component {
         <div id="sliding-panel-content">
           {this.state.currentContent}
         </div>
-        {/* <button onClick={()=>this.nextPanel()}>{this.state.nextButtonLabel}</button> */}
+        { this.props.startButtonLabel && <button onClick={()=>this.nextPanel()}>{this.state.nextButtonLabel}</button> }
       </div>
     )
   }

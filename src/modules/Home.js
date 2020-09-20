@@ -8,8 +8,8 @@ class Home extends Component {
   render() {
     return (
       <div className="home-container">
-        <img className="home-patient-image"src={patientCheckupImage}/>
-        <BasicAppointmentForm className="home-book-appointment-form"/>
+        <img className="flex-1"src={patientCheckupImage}/>
+        <BasicAppointmentForm className="flex-center"/>
       </div>
     )
   }

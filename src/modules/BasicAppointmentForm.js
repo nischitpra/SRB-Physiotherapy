@@ -42,10 +42,8 @@ class BasicAppointmentForm extends React.Component {
   render() {
     return(
       <div className={this.props.className}>
-          <h1 className="home-book-appointment-form-caption">We come to your home!</h1>
-          <hr style={{width:"200px"}}/>
-          <SlidingPanel ref={this.slidingPanelRef} panels={[this.render1(), this.render2(), this.render3()]}/>
-        </div>
+        <SlidingPanel ref={this.slidingPanelRef} panels={[this.render1(), this.render2(), this.render3()]}/>
+      </div>
     )
   }
 
