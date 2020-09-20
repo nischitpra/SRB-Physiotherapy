@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SRB-Physiotherapy/static/css/main.04c0abad.chunk.css",
+    "main.js": "/SRB-Physiotherapy/static/js/main.790e1bab.chunk.js",
+    "main.js.map": "/SRB-Physiotherapy/static/js/main.790e1bab.chunk.js.map",
+    "runtime-main.js": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js",
+    "runtime-main.js.map": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js.map",
+    "static/js/2.ca536145.chunk.js": "/SRB-Physiotherapy/static/js/2.ca536145.chunk.js",
+    "static/js/2.ca536145.chunk.js.map": "/SRB-Physiotherapy/static/js/2.ca536145.chunk.js.map",
+    "index.html": "/SRB-Physiotherapy/index.html",
+    "precache-manifest.640cf0fba79d8fe50953b6e3c1e6911c.js": "/SRB-Physiotherapy/precache-manifest.640cf0fba79d8fe50953b6e3c1e6911c.js",
+    "service-worker.js": "/SRB-Physiotherapy/service-worker.js",
+    "static/css/main.04c0abad.chunk.css.map": "/SRB-Physiotherapy/static/css/main.04c0abad.chunk.css.map",
+    "static/js/2.ca536145.chunk.js.LICENSE.txt": "/SRB-Physiotherapy/static/js/2.ca536145.chunk.js.LICENSE.txt",
+    "static/media/HomePatientDoctor.svg": "/SRB-Physiotherapy/static/media/HomePatientDoctor.5d5d9eef.svg",
+    "static/media/logo.svg": "/SRB-Physiotherapy/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2eedc2b0.js",
+    "static/js/2.ca536145.chunk.js",
+    "static/css/main.04c0abad.chunk.css",
+    "static/js/main.790e1bab.chunk.js"
+  ]
+}
