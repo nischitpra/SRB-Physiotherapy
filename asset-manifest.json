@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SRB-Physiotherapy/static/css/main.138bcdf6.chunk.css",
-    "main.js": "/SRB-Physiotherapy/static/js/main.61133d5f.chunk.js",
-    "main.js.map": "/SRB-Physiotherapy/static/js/main.61133d5f.chunk.js.map",
+    "main.css": "/SRB-Physiotherapy/static/css/main.80481df5.chunk.css",
+    "main.js": "/SRB-Physiotherapy/static/js/main.bbd5bb61.chunk.js",
+    "main.js.map": "/SRB-Physiotherapy/static/js/main.bbd5bb61.chunk.js.map",
     "runtime-main.js": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js",
     "runtime-main.js.map": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js.map",
     "static/js/2.7a9c4934.chunk.js": "/SRB-Physiotherapy/static/js/2.7a9c4934.chunk.js",
     "static/js/2.7a9c4934.chunk.js.map": "/SRB-Physiotherapy/static/js/2.7a9c4934.chunk.js.map",
     "index.html": "/SRB-Physiotherapy/index.html",
-    "precache-manifest.a65fbb0bfffe2438d6ed9b9d4c2dd6a4.js": "/SRB-Physiotherapy/precache-manifest.a65fbb0bfffe2438d6ed9b9d4c2dd6a4.js",
+    "precache-manifest.e7b5244a9d573423c8a486116ccf6c54.js": "/SRB-Physiotherapy/precache-manifest.e7b5244a9d573423c8a486116ccf6c54.js",
     "service-worker.js": "/SRB-Physiotherapy/service-worker.js",
-    "static/css/main.138bcdf6.chunk.css.map": "/SRB-Physiotherapy/static/css/main.138bcdf6.chunk.css.map",
+    "static/css/main.80481df5.chunk.css.map": "/SRB-Physiotherapy/static/css/main.80481df5.chunk.css.map",
     "static/js/2.7a9c4934.chunk.js.LICENSE.txt": "/SRB-Physiotherapy/static/js/2.7a9c4934.chunk.js.LICENSE.txt",
     "static/media/HomePatientDoctor.svg": "/SRB-Physiotherapy/static/media/HomePatientDoctor.5d5d9eef.svg",
     "static/media/logo.svg": "/SRB-Physiotherapy/static/media/logo.5d5d9eef.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.2eedc2b0.js",
     "static/js/2.7a9c4934.chunk.js",
-    "static/css/main.138bcdf6.chunk.css",
-    "static/js/main.61133d5f.chunk.js"
+    "static/css/main.80481df5.chunk.css",
+    "static/js/main.bbd5bb61.chunk.js"
   ]
 }
