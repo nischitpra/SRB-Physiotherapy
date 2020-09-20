@@ -21,7 +21,11 @@ class BookAppointmentForm extends React.Component {
     /**
      * make request here
      */
-    alert(`name:${this.state.name}, phoneNumber:${this.state.phoneNumber}, address:${this.state.address}`)
+    // alert(`name:${this.state.name}, phoneNumber:${this.state.phoneNumber}, address:${this.state.address}`)
+
+    if(this.props.slidingPanelRef!=null) {
+      this.props.slidingPanelRef.current.nextPanel()
+    }
   }
 
   render() {
