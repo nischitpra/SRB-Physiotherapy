@@ -32,7 +32,7 @@ class BasicAppointmentForm extends React.Component {
     return(
       <div>
         This is plane 3. This should slide in after plane 2.<br/>
-        <button onClick={()=>this.slidingPanelRef.current.nextPanel()}>Submit</button>
+        <button onClick={()=>alert("submit form!")}>Submit</button>
       </div>
     )
   }
