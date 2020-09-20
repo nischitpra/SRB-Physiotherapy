@@ -1,0 +1,25 @@
+import React from 'react'
+import logo from '../images/logo.svg'
+
+import '../css/NavBar.css';
+
+
+class NavBar extends React.Component {
+  constructor(props){
+    super(props)
+  }
+
+  render(){
+    return(
+      <div className="navbar">
+        <img className="logo" src={logo}/>
+        <div className="company-block">
+          <div className="company-name">SRB Physio</div>
+          <div className="company-motto">Cure at Home</div>
+        </div>
+      </div>
+    )
+  }
+}
+
+export default NavBar
