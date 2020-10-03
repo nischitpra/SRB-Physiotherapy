@@ -8,7 +8,8 @@ class BookAppointmentForm extends React.Component {
       name:"",
       phoneNumber:"",
       date:"",
-      email:"a@b.com"
+      email:"a@b.com",
+      disableButton: false,
     }
   }
 
@@ -23,11 +24,15 @@ class BookAppointmentForm extends React.Component {
      * make request here
      */
 
+     this.setState({disableButton:true})
+
     const corsProxy = "https://cors-anywhere.herokuapp.com/"
     const form = `https://docs.google.com/forms/d/e/1FAIpQLSdzM-T-0_C6kr5AEugu7kSt_bcHO2nM7W2t1_AcfujsT7l_mA/formResponse?usp=pp_url&entry.1000057=${this.state.name}&entry.1000027=${this.state.phoneNumber}&entry.2055232012=${this.state.date}&entry.1000025=${this.state.email}`
 
     fetch(corsProxy+form)
     .then(response=>{
+      this.setState({disableButton:false})
+
       let formId=""
       if(response.ok){
         response.text().then(html=>{
@@ -47,9 +52,11 @@ class BookAppointmentForm extends React.Component {
         })
       }else{
         console.log("Something is not right. The server responded with error")
+        alert("Please check from data and try again.")
       }
-    }).catch(()=>{
+    }).catch(error=>{
       console.log("Could not submit form")
+      this.setState({disableButton:false})
     })
   }
 
@@ -65,7 +72,7 @@ class BookAppointmentForm extends React.Component {
             <input className="form-content-row" type="phonenumber" placeholder="Phone Number" onChange={ (evt)=> this.changeFormValue( "phoneNumber", evt.target.value ) } />
             <input className="form-content-row" type="date" placeholder="Date" onChange={ (evt)=> this.changeFormValue("date", evt.target.value)} />
           </div>
-          <button className="form-submit-button" onClick={()=>this.submitForm()} >Book Now</button>
+          <button className="form-submit-button" onClick={()=>this.submitForm() } disabled={this.state.disableButton} >Book Now</button>
         </div>
       </div>
     )

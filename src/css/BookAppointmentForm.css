@@ -59,3 +59,8 @@ input {
   margin-bottom: 8px;
   color: white;
 }
+
+
+button:disabled{
+  background-color: gray;
+}
