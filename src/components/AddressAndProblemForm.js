@@ -60,7 +60,7 @@ class AddressAndProblemForm extends React.Component {
           <div className="form-title">Just a few more details</div>
           <div className="form-content">
             <textarea className="form-content-row textarea" type="name" placeholder="Address" onChange={ (evt)=> this.changeFormValue( "address", evt.target.value ) } />
-            <textarea className="form-content-row textarea" type="name" placeholder="Problem you're facing" onChange={ (evt)=> this.changeFormValue( "problem", evt.target.value ) } />
+            <input className="form-content-row" type="name" placeholder="Problem you're facing" onChange={ (evt)=> this.changeFormValue( "problem", evt.target.value ) } />
           </div>
           <button className="form-submit-button" onClick={()=>this.submitForm() } disabled={this.state.disableButton} >Submit</button>
         </div>
