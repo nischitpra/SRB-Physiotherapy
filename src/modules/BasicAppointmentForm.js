@@ -1,5 +1,7 @@
 import React from 'react'
 import BookAppointmentForm from '../components/BookAppointmentForm'
+import AddressAndProblemForm from '../components/AddressAndProblemForm'
+import Thankyou from '../components/Thankyou'
 import SlidingPanel from '../components/SlidingPanel'
 
 class BasicAppointmentForm extends React.Component {
@@ -30,26 +32,17 @@ class BasicAppointmentForm extends React.Component {
     )
   }
 
-
   render2() {
     return(
-      <div>
-        This is plane 2. This should slide in after plane 1<br/>
-        <button onClick={()=>this.slidingPanelRef.current.nextPanel()}>Next</button>
-      </div>
+      <AddressAndProblemForm slidingPanelRef={this.slidingPanelRef} updateFormData={this.updateFormData} formId={this.state.formId}/>
     )
   }
 
   render3() {
     return(
-      <div>
-        This is plane 3. This should slide in after plane 2.<br/>
-        <button onClick={()=>alert("submit form!")}>Submit</button>
-      </div>
+      <Thankyou/>
     )
   }
-
- 
 
   render() {
     return(

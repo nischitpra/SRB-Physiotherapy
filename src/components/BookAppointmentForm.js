@@ -8,7 +8,6 @@ class BookAppointmentForm extends React.Component {
       name:"",
       phoneNumber:"",
       date:"",
-      email:"a@b.com",
       disableButton: false,
     }
   }
@@ -20,14 +19,10 @@ class BookAppointmentForm extends React.Component {
   }
 
   submitForm() {
-    /**
-     * make request here
-     */
-
-     this.setState({disableButton:true})
+    this.setState({disableButton:true})
 
     const corsProxy = "https://cors-anywhere.herokuapp.com/"
-    const form = `https://docs.google.com/forms/d/e/1FAIpQLSdzM-T-0_C6kr5AEugu7kSt_bcHO2nM7W2t1_AcfujsT7l_mA/formResponse?usp=pp_url&entry.1000057=${this.state.name}&entry.1000027=${this.state.phoneNumber}&entry.2055232012=${this.state.date}&entry.1000025=${this.state.email}`
+    const form = `https://docs.google.com/forms/d/e/1FAIpQLSdzM-T-0_C6kr5AEugu7kSt_bcHO2nM7W2t1_AcfujsT7l_mA/formResponse?usp=pp_url&entry.1000057=${this.state.name}&entry.1000027=${this.state.phoneNumber}&entry.2055232012=${this.state.date}`
 
     fetch(corsProxy+form)
     .then(response=>{
@@ -70,7 +65,10 @@ class BookAppointmentForm extends React.Component {
           <div className="form-content">
             <input className="form-content-row" type="name" placeholder="Name" onChange={ (evt)=> this.changeFormValue( "name", evt.target.value ) } />
             <input className="form-content-row" type="phonenumber" placeholder="Phone Number" onChange={ (evt)=> this.changeFormValue( "phoneNumber", evt.target.value ) } />
-            <input className="form-content-row" type="date" placeholder="Date" onChange={ (evt)=> this.changeFormValue("date", evt.target.value)} />
+            <label className="form-content-row datepicker-container" >
+              <span className="datepicker-label">Book date</span>
+              <input className="datepicker" type="date" placeholder="Date" onChange={ (evt)=> this.changeFormValue("date", evt.target.value)} />
+            </label>
           </div>
           <button className="form-submit-button" onClick={()=>this.submitForm() } disabled={this.state.disableButton} >Book Now</button>
         </div>
