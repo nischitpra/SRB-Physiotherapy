@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SRB-Physiotherapy/precache-manifest.f23936ec45e924c586ba2dc4656a2f21.js"
+  "/SRB-Physiotherapy/precache-manifest.af5de9ca16a07b38011bdb0af985e900.js"
 );
 
 self.addEventListener('message', (event) => {
