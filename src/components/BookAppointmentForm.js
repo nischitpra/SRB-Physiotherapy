@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/BookAppointmentForm.css';
 
 class BookAppointmentForm extends React.Component {
   constructor(props) {

@@ -1,8 +1,5 @@
 import React from 'react'
 
-
-import '../css/SlidingPanel.css'
-
 class SlidingPanel extends React.Component {
 
   constructor(props){
@@ -46,15 +43,15 @@ class SlidingPanel extends React.Component {
       }
 
       this.setState({
-        currentContentIndex: newIndex, 
-        currentContent: newContent, 
-        nextContent: nextContent, 
+        currentContentIndex: newIndex,
+        currentContent: newContent,
+        nextContent: nextContent,
         nextButtonLabel: buttonLabel
       }, this._enterAnimation)
-     
+
     }, 250)
   }
- 
+
   render() {
     return(
       <div>

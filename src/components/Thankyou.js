@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Thankyou.css';
 
 class Thankyou extends React.Component {
   render() {

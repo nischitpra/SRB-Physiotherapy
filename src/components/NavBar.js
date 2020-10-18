@@ -1,9 +1,6 @@
 import React from 'react'
 import logo from '../images/logo.svg'
 
-import '../css/NavBar.css';
-
-
 class NavBar extends React.Component {
   constructor(props){
     super(props)
