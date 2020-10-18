@@ -1,0 +1,12 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+  padding-left: 256px;
+  padding-right: 256px;
+  padding-top: 100px;
+  padding-bottom: 128px;
+}

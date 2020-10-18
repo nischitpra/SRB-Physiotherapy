@@ -1,0 +1,97 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.form-title {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+input {
+  width: 256px;
+  height: 24px;
+  font-size: 1.2em;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+.form-submit-button{
+  width: 100%;
+  height: 32px;
+  font-size: 1.2em;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-decoration: none;
+  line-height: 4px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: tomato;
+  border: tomato solid 1px;
+  border-radius: 4px 4px 4px 4px;
+  color: white;
+}
+
+.book-appointment-form-caption {
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.datepicker-container {
+  border: solid black 1px;
+  border-radius: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 256px;
+  text-align: left;
+  font-size: 1.2em;
+  background: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: gray;
+}
+
+.datepicker-label {
+  margin-right: 8px;
+}
+
+.datepicker {
+    background: none;
+    border: none;
+    width: 128px;
+    font-size: 1em;
+    margin: 0;
+}
+
+.datepicker:focus {
+    outline-width: 0;
+}
+
+button:disabled{
+  background-color: gray;
+}
