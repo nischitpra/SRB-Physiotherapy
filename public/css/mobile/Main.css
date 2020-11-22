@@ -5,3 +5,10 @@
 @import url("SlidingPanel.css");
 @import url("Thankyou.css");
 @import url("App.css");
+
+
+.dashboard {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
