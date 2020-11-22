@@ -1,24 +1,32 @@
 {
   "files": {
     "main.css": "/SRB-Physiotherapy/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/SRB-Physiotherapy/static/js/main.081d6ad5.chunk.js",
-    "main.js.map": "/SRB-Physiotherapy/static/js/main.081d6ad5.chunk.js.map",
+    "main.js": "/SRB-Physiotherapy/static/js/main.bd27f7f3.chunk.js",
+    "main.js.map": "/SRB-Physiotherapy/static/js/main.bd27f7f3.chunk.js.map",
     "runtime-main.js": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js",
     "runtime-main.js.map": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js.map",
-    "static/js/2.6eda304d.chunk.js": "/SRB-Physiotherapy/static/js/2.6eda304d.chunk.js",
-    "static/js/2.6eda304d.chunk.js.map": "/SRB-Physiotherapy/static/js/2.6eda304d.chunk.js.map",
+    "static/js/2.e8998416.chunk.js": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js",
+    "static/js/2.e8998416.chunk.js.map": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js.map",
     "index.html": "/SRB-Physiotherapy/index.html",
-    "precache-manifest.7ff8c5c8f7fa577d2449e00477394946.js": "/SRB-Physiotherapy/precache-manifest.7ff8c5c8f7fa577d2449e00477394946.js",
+    "precache-manifest.2aaa754481e1609b1ebcca418d140bea.js": "/SRB-Physiotherapy/precache-manifest.2aaa754481e1609b1ebcca418d140bea.js",
     "service-worker.js": "/SRB-Physiotherapy/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/SRB-Physiotherapy/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.6eda304d.chunk.js.LICENSE.txt": "/SRB-Physiotherapy/static/js/2.6eda304d.chunk.js.LICENSE.txt",
+    "static/js/2.e8998416.chunk.js.LICENSE.txt": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js.LICENSE.txt",
+    "static/media/1.JPG": "/SRB-Physiotherapy/static/media/1.ac7a6f14.JPG",
+    "static/media/2.JPG": "/SRB-Physiotherapy/static/media/2.cd11a005.JPG",
+    "static/media/3.JPG": "/SRB-Physiotherapy/static/media/3.bbda2bb1.JPG",
+    "static/media/4.JPG": "/SRB-Physiotherapy/static/media/4.9ebc0b69.JPG",
+    "static/media/5.JPG": "/SRB-Physiotherapy/static/media/5.8556ca13.JPG",
+    "static/media/6.JPG": "/SRB-Physiotherapy/static/media/6.226484af.JPG",
+    "static/media/7.JPG": "/SRB-Physiotherapy/static/media/7.89361c97.JPG",
+    "static/media/8.JPG": "/SRB-Physiotherapy/static/media/8.6d232336.JPG",
     "static/media/HomePatientDoctor.svg": "/SRB-Physiotherapy/static/media/HomePatientDoctor.5d5d9eef.svg",
     "static/media/logo.svg": "/SRB-Physiotherapy/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2eedc2b0.js",
-    "static/js/2.6eda304d.chunk.js",
+    "static/js/2.e8998416.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.081d6ad5.chunk.js"
+    "static/js/main.bd27f7f3.chunk.js"
   ]
 }
