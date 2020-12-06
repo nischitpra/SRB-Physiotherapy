@@ -85,6 +85,17 @@ class Home extends Component {
 					</div>
 					<BasicAppointmentForm className="flex-center basic-form" />
 				</div>
+				<div className = "treatment-container">
+					<div className="treatment-title">What do we treat?</div>
+					<ul className = "treatment-list">
+						<li>Orthophysiotherapy</li>
+						<li>Neurophysiotherapy</li>
+						<li>Cardiophysiotherapy</li>
+						<li>Pediatric</li>
+						<li>Geriatric</li>
+						<li>&nbsp;</li>
+					</ul>
+				</div>
 
 				<div className="footer">
 					<div>
@@ -92,7 +103,7 @@ class Home extends Component {
 							class="fa fa-phone"
 							style={{ marginLeft: 24, marginRight: 8 }}
 						></i>
-						+918837647890
+						+917204998046
 					</div>
 					<div>
 						<i
@@ -101,7 +112,7 @@ class Home extends Component {
 						>
 							&#xf0e0;
 						</i>
-						ramratanyadav@gmail.com
+						ramratan.yadav.881@gmail.com
 					</div>
 				</div>
 			</div>

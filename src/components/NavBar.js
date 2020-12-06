@@ -12,7 +12,7 @@ class NavBar extends React.Component {
         <img className="logo" src={logo}/>
         <div className="company-block">
           <div className="company-name">SRB Physio</div>
-          <div className="company-motto">Cure at Home</div>
+          <div className="company-motto">Overcome the pain</div>
         </div>
       </div>
     )

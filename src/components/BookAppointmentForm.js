@@ -17,29 +17,63 @@ class BookAppointmentForm extends React.Component {
     })
   }
 
-  submitForm() {
+  // submitForm() {
+  //   this.setState({disableButton:true})
+
+  //   const corsProxy = "https://cors-anywhere.herokuapp.com/"
+  //   const form = `https://docs.google.com/forms/d/e/1FAIpQLSdzM-T-0_C6kr5AEugu7kSt_bcHO2nM7W2t1_AcfujsT7l_mA/formResponse?usp=pp_url&entry.1000057=${this.state.name}&entry.1000027=${this.state.phoneNumber}&entry.2055232012=${this.state.date}`
+
+  //   fetch(corsProxy+form)
+  //   .then(response=>{
+  //     this.setState({disableButton:false})
+
+  //     let formId=""
+  //     if(response.ok){
+  //       response.text().then(html=>{
+  //         const identifier = "edit2="
+  //         const startIndex = html.indexOf(identifier)+identifier.length
+  //         for(let i=startIndex;i<html.length;i++){
+  //           let character = html[i]
+  //           if(character=="\"" || character=="&")break
+  //           formId+=html[i]
+  //         }
+
+  //         this.props.updateFormData("formId", formId)
+
+  //         if(this.props.slidingPanelRef!=null) {
+  //           this.props.slidingPanelRef.current.nextPanel()
+  //         }
+  //       })
+  //     }else{
+  //       console.log("Something is not right. The server responded with error")
+  //       alert("Please check from data and try again.")
+  //     }
+  //   }).catch(error=>{
+  //     console.log("Could not submit form")
+  //     this.setState({disableButton:false})
+  //   })
+  // }
+
+ submitForm() {
     this.setState({disableButton:true})
 
-    const corsProxy = "https://cors-anywhere.herokuapp.com/"
-    const form = `https://docs.google.com/forms/d/e/1FAIpQLSdzM-T-0_C6kr5AEugu7kSt_bcHO2nM7W2t1_AcfujsT7l_mA/formResponse?usp=pp_url&entry.1000057=${this.state.name}&entry.1000027=${this.state.phoneNumber}&entry.2055232012=${this.state.date}`
+    const form = `http://localhost:3001/submit`
 
-    fetch(corsProxy+form)
+    fetch(form, {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/text',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({name: this.state.name, phoneNumber: this.state.phoneNumber, date: this.state.date})
+    })
     .then(response=>{
       this.setState({disableButton:false})
 
       let formId=""
       if(response.ok){
-        response.text().then(html=>{
-          const identifier = "edit2="
-          const startIndex = html.indexOf(identifier)+identifier.length
-          for(let i=startIndex;i<html.length;i++){
-            let character = html[i]
-            if(character=="\"" || character=="&")break
-            formId+=html[i]
-          }
-
+        response.text().then(formId=>{
           this.props.updateFormData("formId", formId)
-
           if(this.props.slidingPanelRef!=null) {
             this.props.slidingPanelRef.current.nextPanel()
           }
@@ -53,6 +87,7 @@ class BookAppointmentForm extends React.Component {
       this.setState({disableButton:false})
     })
   }
+
 
   render() {
     return(

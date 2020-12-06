@@ -4,6 +4,10 @@
   display: flex;
   background: #0A1427;
   align-items: center;
+  
+  box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.75);
 }
 .logo{
   height: 65px;
