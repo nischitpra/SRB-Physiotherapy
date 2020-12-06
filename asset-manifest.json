@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SRB-Physiotherapy/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/SRB-Physiotherapy/static/js/main.bd27f7f3.chunk.js",
-    "main.js.map": "/SRB-Physiotherapy/static/js/main.bd27f7f3.chunk.js.map",
+    "main.js": "/SRB-Physiotherapy/static/js/main.f7273d74.chunk.js",
+    "main.js.map": "/SRB-Physiotherapy/static/js/main.f7273d74.chunk.js.map",
     "runtime-main.js": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js",
     "runtime-main.js.map": "/SRB-Physiotherapy/static/js/runtime-main.2eedc2b0.js.map",
     "static/js/2.e8998416.chunk.js": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js",
     "static/js/2.e8998416.chunk.js.map": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js.map",
     "index.html": "/SRB-Physiotherapy/index.html",
-    "precache-manifest.2aaa754481e1609b1ebcca418d140bea.js": "/SRB-Physiotherapy/precache-manifest.2aaa754481e1609b1ebcca418d140bea.js",
+    "precache-manifest.441850d4e562016ebd756456ced5a9cb.js": "/SRB-Physiotherapy/precache-manifest.441850d4e562016ebd756456ced5a9cb.js",
     "service-worker.js": "/SRB-Physiotherapy/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/SRB-Physiotherapy/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.e8998416.chunk.js.LICENSE.txt": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.2eedc2b0.js",
     "static/js/2.e8998416.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.bd27f7f3.chunk.js"
+    "static/js/main.f7273d74.chunk.js"
   ]
 }

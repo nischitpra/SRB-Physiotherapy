@@ -33,11 +33,11 @@ input {
   border-radius: 3px;
   border: 1px solid;
 }
-.form-submit-button{
+.form-submit-button {
   width: 100%;
   height: 32px;
   font-size: 1.2em;
-  margin-top: 32px;
+  margin-top: 52px;
   margin-bottom: 32px;
   text-transform: uppercase;
   padding-top: 32px;
@@ -50,6 +50,10 @@ input {
   border: tomato solid 1px;
   border-radius: 4px 4px 4px 4px;
   color: white;
+
+  box-shadow: 4px 4px 47px -2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 4px 4px 47px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 4px 47px -2px rgba(0, 0, 0, 0.45);
 }
 
 .book-appointment-form-caption {
@@ -81,17 +85,17 @@ input {
 }
 
 .datepicker {
-    background: none;
-    border: none;
-    width: 128px;
-    font-size: 1em;
-    margin: 0;
+  background: none;
+  border: none;
+  width: 128px;
+  font-size: 1em;
+  margin: 0;
 }
 
 .datepicker:focus {
-    outline-width: 0;
+  outline-width: 0;
 }
 
-button:disabled{
+button:disabled {
   background-color: gray;
 }
