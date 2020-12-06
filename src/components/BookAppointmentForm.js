@@ -20,7 +20,7 @@ class BookAppointmentForm extends React.Component {
  submitForm() {
     this.setState({disableButton:true})
 
-    const form = `http://localhost:3001/submit`
+    const form = `https://srb-physio-backend.herokuapp.com/submit`
 
     fetch(form, {
       method: 'POST',
@@ -55,7 +55,7 @@ class BookAppointmentForm extends React.Component {
   render() {
     return(
       <div className="flex-center">
-        <h1 className="book-appointment-form-caption">We come to your home!</h1>
+        <h1 className="book-appointment-form-caption">Also, we come to your home!</h1>
         <hr style={{width:"200px"}}/>
         <div className="form-container">
           <div className="form-title">Schedule an Appointment</div>
