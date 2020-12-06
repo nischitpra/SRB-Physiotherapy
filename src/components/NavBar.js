@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logo.svg'
+import logo from '../images/logo.png'
 
 class NavBar extends React.Component {
   constructor(props){
@@ -11,7 +11,7 @@ class NavBar extends React.Component {
       <div className="navbar">
         <img className="logo" src={logo}/>
         <div className="company-block">
-          <div className="company-name">SRB Physio</div>
+          <div className="company-name">SRB Physiotherapy</div>
           <div className="company-motto">Overcome the pain</div>
         </div>
       </div>

@@ -88,12 +88,12 @@ class Home extends Component {
 				<div className = "treatment-container">
 					<div className="treatment-title">What do we treat?</div>
 					<ul className = "treatment-list">
+						<li>Pain Management</li>
 						<li>Orthophysiotherapy</li>
 						<li>Neurophysiotherapy</li>
 						<li>Cardiophysiotherapy</li>
 						<li>Pediatric</li>
 						<li>Geriatric</li>
-						<li>&nbsp;</li>
 					</ul>
 				</div>
 
