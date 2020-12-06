@@ -2,7 +2,7 @@
   "name": "sbr_physio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nischitpra.github.io/SRB-Physiotherapy",
+  "homepage": "https://srbphysiotherapy.com",
   "dependencies": {
     "cra-template": "1.0.3",
     "framer-motion": "^2.9.4",
