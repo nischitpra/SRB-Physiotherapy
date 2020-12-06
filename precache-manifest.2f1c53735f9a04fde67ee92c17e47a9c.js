@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58bd8b6b0f747c544c5fb2d2b1dafcb4",
+    "revision": "2fa0f450ce413d0eb9e9e8603809aceb",
     "url": "/SRB-Physiotherapy/index.html"
   },
   {
-    "revision": "f9ac2298f0d267a43b31",
+    "revision": "c819a34f6bdae4af9de8",
     "url": "/SRB-Physiotherapy/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9ac2298f0d267a43b31",
-    "url": "/SRB-Physiotherapy/static/js/main.44cb3abf.chunk.js"
+    "revision": "c819a34f6bdae4af9de8",
+    "url": "/SRB-Physiotherapy/static/js/main.e53a94ab.chunk.js"
   },
   {
     "revision": "cc4f17d3a2dd62b16c72",
