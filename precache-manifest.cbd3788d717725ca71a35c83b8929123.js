@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88960955f808f496922138f3ac639468",
+    "revision": "58bd8b6b0f747c544c5fb2d2b1dafcb4",
     "url": "/SRB-Physiotherapy/index.html"
   },
   {
-    "revision": "8210484db3826099a842",
+    "revision": "f9ac2298f0d267a43b31",
     "url": "/SRB-Physiotherapy/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SRB-Physiotherapy/static/js/2.e8998416.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8210484db3826099a842",
-    "url": "/SRB-Physiotherapy/static/js/main.f7273d74.chunk.js"
+    "revision": "f9ac2298f0d267a43b31",
+    "url": "/SRB-Physiotherapy/static/js/main.44cb3abf.chunk.js"
   },
   {
     "revision": "cc4f17d3a2dd62b16c72",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SRB-Physiotherapy/static/media/HomePatientDoctor.5d5d9eef.svg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/SRB-Physiotherapy/static/media/logo.5d5d9eef.svg"
+    "revision": "01b5443ff9d95e43df3f5e24aa32d141",
+    "url": "/SRB-Physiotherapy/static/media/logo.01b5443f.png"
   }
 ]);

@@ -8,8 +8,6 @@
 	background: white;
 	height: inherit;
 
-
-
 	box-shadow: 16px -1px 35px -5px rgba(0, 0, 0, 0.75);
 	-webkit-box-shadow: 16px -1px 35px -5px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 16px -1px 35px -5px rgba(0, 0, 0, 0.75);
@@ -36,7 +34,6 @@
 	background-color: rgba(39, 81, 160, 0.2);
 }
 
-
 .treatment-container {
 	padding-top: 64px;
 	padding-bottom: 128px;
@@ -51,6 +48,9 @@
 	-webkit-box-shadow: 3px 18px 131px 5px rgba(0, 0, 0, 0.43) inset;
 	-moz-box-shadow: 3px 18px 131px 5px rgba(0, 0, 0, 0.43) inset;
 
+	background: url("../../treatmentBg.jpg") no-repeat center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	/*
 box-shadow: 4px 4px 124px -36px rgba(0,0,0,0.75) inset;
 -webkit-box-shadow: 4px 4px 124px -36px rgba(0,0,0,0.75) inset;
@@ -80,6 +80,9 @@ box-shadow: 4px 4px 124px -36px rgba(0,0,0,0.75) inset;
 	-moz-columns: 1;
 	list-style-type: none;
 	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	text-shadow: 0px 0px 10px #000000;
 }
 
 li {
@@ -97,5 +100,5 @@ li {
 
 	font-weight: 600;
 	letter-spacing: 0.5px;
-    line-height: 32px;
+	line-height: 32px;
 }
